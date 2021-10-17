@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Main Code Starts From Here */
+
+html, body {
+  height: 100%;
+  color: #F5F5F5;
+  font-family: Raleway, sans-serif;
+  background-color: #F5F5F5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#8FFFCE, #12152B);
+    border-radius: 6px;
+}
+
+
+.cover-container {
+    background-image: url("https://images.pexels.com/photos/2470607/pexels-photo-2470607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");   
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.navbar, #navItems a, .navbar-brand, .navbar-toggler-icon {
+    font-size: 1.2em;
+    color: #F5F5F5;
+    font-weight: 100;
+    font-family: 'Raleway',sans-serif;
+    background-color: #12152B;
+}
+
+.navbar #navItems a:hover {
+    color: #8FFFCE;
+}
+
+.btn-secondary {
+    background-color: #12152B;
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+    color: #1A3737;
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+}
+
+#main-cover {
+    background-color: black;
+    padding: 3em 3em;
+    opacity: 0.84;
+    font-family: 'Lato', sans-serif;
+    max-width: 42em;
+}
+
+.welcome {
+    font-size: 3.3em;
+}
+
+.tagline {
+    color: #FF8D85;
+    font-size: 1.5em;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: underline;
+}
+
+#whyUs {
+    background-color: #FF8D85;  
+    padding-bottom: 100px;
+}
+
+#whyUs img {
+    padding: 0px 2.4em;
+}
+
+#c19-measures {
+    background-color: #E9D0F6;  
+    color: #1A3737;
+}
+
+#c19-measures img {
+    padding: 0px 2.4em;
+}
+
+.content {
+    padding: 78px 0px;
+}
+
+footer {
+    font-size: 2.1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #8FFFCE;
+    padding: 0px 0.9em;
+}
+
+footer li {
+    padding-top: 0.3em;
+}
+
+#socials {
+    font-family: 'Megrim', cursive;
+    font-weight: 500;
+    padding: 1.2em 0px;
+}
+
+#about {
+    font-family: 'Catamaran', sans-serif;
+    text-align: start;
+    font-size: 0.6em;
+}
+
+#about h3 {
+    color: #F5F5F5;
+    padding-left: 1em;
+    font-weight: 100;
+    padding-bottom: 1em;
+}
+
+#button-class {
+    margin: 0px 0px;
+    padding: 0px 0px;
+
+}
+
+@media (max-width:700px) {
+    .cover-container {
+        background-position: center;
+    }
+
+    #footer-end {
+        font-size: 2.4em;
+        border-bottom: 1px solid #F5F5F5;
+        padding-bottom: 2rem;
+    }
+}
