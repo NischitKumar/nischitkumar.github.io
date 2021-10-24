@@ -81,7 +81,7 @@ html {
     color: #F5F5F5;
     font-weight: 100;
     font-family: 'Raleway',sans-serif;
-    background-color: #12152B;
+    /* background-color: #12152B; */
 }
 
 .navbar #navItems a:hover {
@@ -170,11 +170,39 @@ footer li {
     padding-left: 1em;
     font-weight: 100;
     padding-bottom: 1em;
+    font-size: 1.8em;
 }
 
 #button-class {
     margin: 0px 0px;
     padding: 0px 0px;
+}
+
+#newsletter h3{
+    font-size: 1.5em;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+#newsletter button {
+    justify-self: flex-start;
+    width: 5.1em;
+    margin-left: 0.6em;;
+    margin-bottom: 0.3em;
+    height: 2.4em;
+    margin-top: 0em;
+}
+
+.navbar.scrolled {
+    background: #00A4E6;
+    transition: background 500ms;
+}
+
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.45em;
+    padding-top: 3em;
 
 }
 

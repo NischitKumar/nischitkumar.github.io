@@ -20,8 +20,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top px-3">
-        <a href="#" class="navbar-brand">Luxuria Experior</a>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top px-3" id="mainNavbar">
+        <a href="#" class="navbar-brand"> Luxuria Experior</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,11 +40,12 @@
                     <a class="nav-link" href="#">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="/Contact Us/contact-us.html">Contact Us</a>
                 </li>
             </ul>
         </div>
     </nav>
+
 
     <div class="container-fluid" id="contact-form">
         <h1 class="display-4">Contact Us</h1>
@@ -74,6 +75,15 @@
         integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
         crossorigin="anonymous"></script>
 
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
 
 </body>
 

@@ -60,7 +60,7 @@ body {
     color: #F5F5F5;
     font-weight: 100;
     font-family: 'Raleway',sans-serif;
-    background-color: #12152B;
+    /* background-color: #12152B; */
 }
 
 .navbar #navItems a:hover {
@@ -105,4 +105,9 @@ body {
   
 .container #cc-name {
 	margin-bottom: 0.6em;
+}
+
+.navbar.scrolled {
+    background: #00A4E6;
+    transition: background 500ms;
 }
